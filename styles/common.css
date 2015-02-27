@@ -1166,6 +1166,9 @@ span.oneliner {
   -moz-box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 0.3);
   box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 0.3);
 }
+.subscription-submit:hover{
+  cursor: pointer;
+}
 .subscription-submit:active{
   background: #1d9ed4;
   -webkit-box-shadow: inset 0px 0px 0px 0px rgba(255, 255, 255, 0.3);

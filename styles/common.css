@@ -1083,7 +1083,7 @@ span.oneliner {
   font-size: 14px;
   line-height: 20px;
 }
-.home_contact_us {
+/*.home_contact_us {
   border-top: 2px solid #cb3446;
   border-bottom: 2px solid #cb3446;
   background: #e73c50;
@@ -1095,7 +1095,84 @@ span.oneliner {
   color: #fff;
   font-family: "OpenSansLight", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 48px;
+}*/
+
+.notify-area{
+  text-align: center;
+  font-family: "OpenSansLight", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: #e73c50;
+  padding: 55px 0 80px 0;
+  overflow: hidden;
 }
+.notify-area .page-wrapper{
+  margin: 0px auto;
+  width: 1045px;
+}
+.notify-area h2{
+  font-size: 36px;
+  font-weight: normal;
+  color: #fff;
+  margin: 0;
+}
+.notify-area .left-side{
+  width: 470px;
+  margin-top: 70px;
+  float: left;
+  padding-top: 8px;
+}
+.notify-area .left-side p{
+  display: block;
+  text-align: center;
+
+  color: #fff;
+  font-size: 22px;
+  text-align: left;
+  margin: 0;
+}
+.notify-area .right-side{
+  width: 480px;
+  margin-top: 70px;
+  float: right;
+}
+.subscription-textbox{
+  width: 320px;
+  background: #fbfbfb;
+  color: #e73c50;
+  font-size: 18px;
+  margin-right: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.subscription-textbox:focus{
+  outline: 0;
+}
+.subscription-submit{
+  width: 120px;
+  background: #3fb4e5;
+  color: #fff;
+  outline: none;
+  border: 1px solid #177da7;
+  padding: 10px;
+  font-size: 18px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 0.3);
+  -moz-box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 0.3);
+  box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 0.3);
+}
+.subscription-submit:active{
+  background: #1d9ed4;
+  -webkit-box-shadow: inset 0px 0px 0px 0px rgba(255, 255, 255, 0.3);
+  -moz-box-shadow: inset 0px 0px 0px 0px rgba(255, 255, 255, 0.3);
+  box-shadow: inset 0px 0px 0px 0px rgba(255, 255, 255, 0.3);
+}
+
 .foo_logo {
   width: 171px;
   height: 30px;

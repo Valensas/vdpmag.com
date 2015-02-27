@@ -20,7 +20,11 @@
     <link type="image/x-icon" href="/favicon.ico" rel="icon"></link>
     <script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script>
     <script src="/js/jquery.js"></script>
-
+    <script>
+    $(function(){
+      $("#subscription").load("/subscription.html");
+    });
+    </script>
     
     <link id="validate-engine-css-css" media="all" type="text/css" href="/validationEngine.jquery.css?ver=2.4.4" rel="stylesheet"></link>
 
@@ -145,9 +149,7 @@
       <div class="push"></div>
     </div>
 
-    <div class="home_contact_us">
-      <a href="mailto:info@vdpmag.com"> info@vdpmag.com </a>
-    </div>
+    <div id="subscription"></div>
 
     <div id="modals"></div>
 

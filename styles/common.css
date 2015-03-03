@@ -1157,6 +1157,7 @@ span.oneliner {
   border: 1px solid #177da7;
   padding: 10px;
   font-size: 18px;
+  -webkit-appearance: none;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   -o-border-radius: 5px;
@@ -1168,10 +1169,12 @@ span.oneliner {
   box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 0.3);
 }
 .subscription-submit:hover{
+  -webkit-appearance: none;
   cursor: pointer;
 }
 .subscription-submit:active{
   background: #1d9ed4;
+  -webkit-appearance: none;
   -webkit-box-shadow: inset 0px 0px 0px 0px rgba(255, 255, 255, 0.3);
   -moz-box-shadow: inset 0px 0px 0px 0px rgba(255, 255, 255, 0.3);
   box-shadow: inset 0px 0px 0px 0px rgba(255, 255, 255, 0.3);
@@ -1186,8 +1189,8 @@ span.oneliner {
   }
 }
 
-@media (max-width: 1200px){
-
+@media (max-width: 1200px) {
+ 
   .clear{
     text-align: center !important;
   }

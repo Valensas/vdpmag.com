@@ -1083,7 +1083,7 @@ span.oneliner {
   font-size: 14px;
   line-height: 20px;
 }
-/*.home_contact_us {
+.home_contact_us {
   border-top: 2px solid #cb3446;
   border-bottom: 2px solid #cb3446;
   background: #e73c50;
@@ -1095,7 +1095,7 @@ span.oneliner {
   color: #fff;
   font-family: "OpenSansLight", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 48px;
-}*/
+}
 
 .notify-area{
   text-align: center;
@@ -1106,7 +1106,6 @@ span.oneliner {
 }
 .notify-area .page-wrapper{
   margin: 0px auto;
-  width: 1045px;
 }
 .notify-area h2{
   font-size: 36px;
@@ -1115,28 +1114,30 @@ span.oneliner {
   margin: 0;
 }
 .notify-area .left-side{
-  width: 470px;
+  text-align: center;
   margin-top: 70px;
   float: left;
   padding-top: 8px;
 }
 .notify-area .left-side p{
-  display: block;
-  text-align: center;
 
+  display: block;
+  text-align: left;
+  padding-left: 10px;
   color: #fff;
   font-size: 22px;
   text-align: left;
   margin: 0;
 }
 .notify-area .right-side{
-  width: 480px;
+  text-align: center;
   margin-top: 70px;
+  max-width: 500px;
   float: right;
 }
 .subscription-textbox{
-  width: 320px;
   background: #fbfbfb;
+  max-width: 240px;
   color: #e73c50;
   font-size: 18px;
   margin-right: 10px;
@@ -1149,7 +1150,7 @@ span.oneliner {
   outline: 0;
 }
 .subscription-submit{
-  width: 120px;
+  max-width: 120px;
   background: #3fb4e5;
   color: #fff;
   outline: none;
@@ -1174,6 +1175,46 @@ span.oneliner {
   -webkit-box-shadow: inset 0px 0px 0px 0px rgba(255, 255, 255, 0.3);
   -moz-box-shadow: inset 0px 0px 0px 0px rgba(255, 255, 255, 0.3);
   box-shadow: inset 0px 0px 0px 0px rgba(255, 255, 255, 0.3);
+}
+
+@media (min-width: 1200px){
+  .notify-area .page-wrapper{
+    width: 1045px;
+  }
+  .notify-area .right-side{
+    margin-right: 20px !important;
+  }
+}
+
+@media (max-width: 1200px){
+
+  .clear{
+    text-align: center !important;
+  }
+  .left-side{
+    text-align: center;
+    margin-top: 20px !important;
+    float: center !important;
+    width: 100%;
+  }
+
+  .left-side p{
+    text-align: center !important;
+  }
+  .right-side{
+    text-align: center;
+    max-width: 1200px !important;
+    margin-top: 10px !important;
+    float: center !important;
+    width: 100%;
+  }
+  .subscription-textbox{
+    width: 100%;
+  }
+  .subscription-submit{
+    margin-top: 15px;
+  }
+
 }
 
 .foo_logo {
